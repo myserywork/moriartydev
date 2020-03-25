@@ -46,7 +46,7 @@ export default class Agenda extends React.Component {
 
   handleEventClick(e) {
     if (e.event.extendedProps.state == 'open') {
-      if (this.state.codigoAgendamento) {
+      if (this.state.codigoAgendamento == 'teste') {
         swal({
           title: "Confirmação",
           text: "Deseja agendar o atendimento para o dia\n" + this.formatDateTime(e.event.start) + "?",
@@ -72,7 +72,7 @@ export default class Agenda extends React.Component {
           }
         });
       } else {
-        swal("Ops!", "Digite o código de agendamento para agendar esse horário!", "error");
+        swal("Ops!", "Digite o código de agendamento válido para agendar esse horário!", "error");
       }
     } else {
       swal("Ops!", "Esse horário não está disponível para agendamento!", "error");
