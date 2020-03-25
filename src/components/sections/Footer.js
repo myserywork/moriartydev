@@ -16,7 +16,7 @@ export default class Footer extends React.Component {
     						<li><a href="#"><em className="fa fa-medium"></em></a></li>
     					</ul>
     					<span className="copyright-text">
-    						Copyright &copy; 2020, MAIS FPS by <a href="http://moriartydev.com.br/" target="_blank">MoriartyDEV</a>
+    						Copyright &copy; 2020, MAIS FPS by <a href="http://moriartydev.com.br/" rel="noopener noreferrer">MoriartyDEV</a>
     						<span>All trademarks and copyrights belong to their respective owners.</span>
     					</span>
     				</div>

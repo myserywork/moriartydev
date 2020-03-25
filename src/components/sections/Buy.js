@@ -23,7 +23,7 @@ export default class Buy extends React.Component {
             <div className="col-md-6 col-lg-12">
               <div className="team-circle">
                   <h4>Pagamento e agendamento de horario</h4>
-                  <p>Após pagamento você agenda manutenção na nossa <a href="https://www.facebook.com/maisfps/appointments/" target="_blank" >Agenda Online</a>
+                  <p>Após pagamento você agenda manutenção na nossa <a href="https://www.facebook.com/maisfps/appointments/" target="_blank" rel="noopener noreferrer">Agenda Online</a>
 
                    <h6><b>Horários para manutenção</b></h6>
                    Segundas a sextas 10:00 - 20:00 <br />

@@ -16,7 +16,7 @@ export default class Banner extends React.Component {
   									<li><a href="#contact" className="btn btn-alt">Contato</a></li>
   								</ul>
   								<ul className="social">
-  									<li><a href="https://www.facebook.com/maisfps/" target="_blank"><em className="fa fa-facebook"></em></a></li>
+  									<li><a href="https://www.facebook.com/maisfps/" target="_blank" rel="noopener noreferrer"><em className="fa fa-facebook"></em></a></li>
   								  <li><a href="#"><em className="fa fa-twitter"></em></a></li>
   									<li><a href="#"><em className="fa fa-youtube-play"></em></a></li>
   								</ul>
