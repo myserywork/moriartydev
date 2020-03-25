@@ -1,16 +1,17 @@
 import React from 'react';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 import Header from './Header';
-import Intro from './sections/Intro';
-import Howto from './sections/Howto';
-import Services from './sections/Services';
-import Workflow from './sections/Workflow';
-import Buy from './sections/Buy';
-import Faq from './sections/Faq';
-import Contact from './sections/Contact';
-import Subscribe from './sections/Subscribe';
+import SimpleHeader from './SimpleHeader';
+import Home from './Home';
+import Agenda from './Agenda';
 import Footer from './sections/Footer';
-
-
 
 export default class App extends React.Component {
   constructor(props){
@@ -23,15 +24,18 @@ export default class App extends React.Component {
   render() {
     return (
       <main>
-        <Header />
-        <Intro />
-        <Howto />
-        <Services />
-        <Workflow />
-        <Buy />
-        <Faq />
-        <Contact />
-        <Subscribe />
+        <Router>
+          <Switch>
+            <Route path="/agenda">
+              <SimpleHeader />
+              <Agenda />
+            </Route>
+            <Route path="/">
+              <Header />
+              <Home />
+            </Route>
+          </Switch>
+        </Router>
         <Footer />
       </main>
     )

@@ -6,7 +6,7 @@ export default class Navbar extends React.Component {
       <div className="navbar navbar-expand-lg is-transparent" id="mainnav">
         <nav className="container">
 
-          <a className="navbar-brand" href="index.html">
+          <a className="navbar-brand" href="/">
 
             <img className="logo logo-light" alt="logo" src="./images/logo_300.png"  />
           </a>
@@ -25,7 +25,7 @@ export default class Navbar extends React.Component {
               <li className="nav-item"><a className="nav-link menu-link" href="#comprar">Comprar</a></li>
             </ul>
             <ul className="navbar-nav navbar-btns">
-              <li className="nav-item"><a className="nav-link btn btn-sm btn-outline menu-link"  href="#comprar">Agendar minha manutenção</a></li>
+              <li className="nav-item"><a className="nav-link btn btn-sm btn-outline menu-link"  href="/agenda">Agendar minha manutenção</a></li>
             </ul>
           </div>
         </nav>
