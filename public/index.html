@@ -3,12 +3,6 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -24,20 +18,75 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+
+    <meta charset="utf-8">
+    <meta name="author" content="Softnio">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Turbine seu pc sem fazer upgrade!">
+    <!-- Fav Icon  -->
+    <link rel="shortcut icon" href="%PUBLIC_URL%/images/favicon.png">
+    <meta property="og:image" content="%PUBLIC_URL%/images/logoy.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="800">
+    <meta property="og:description" content="Talvez você não precise gastar uma fortuna com um upgrade, entre em contato com a gente, resolvemos seu problema!">
+    <meta property="og:image:height" content="600">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/vendor.bundle.css">
+  	<!-- Custom styles for this template -->
+  	<link rel="stylesheet" href="%PUBLIC_URL%/assets/css/style5152.css?ver=1.0">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/whats.css?ver=1.0">
+  	<link rel="stylesheet" href="%PUBLIC_URL%/assets/css/theme5152.css?ver=1.0" id="layoutstyle">
+      <!-- ManyChat -->
+    <script src="//widget.manychat.com/1590983771019372.js" async="async"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131153942-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-131153942-1');
+    </script>
+    <title>Mais FPS - Turbine seu PC</title>
+
   </head>
-  <body>
+  <body class="theme-dark" data-spy="scroll" data-target="#mainnav" data-offset="80">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div id="preloader">
+      <div id="loader"></div>
+      <div class="loader-section loader-top"></div>
+      <div class="loader-section loader-bottom"></div>
+    </div>
+
+    <script src="%PUBLIC_URL%/assets/js/jquery.bundle.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/script.js"></script>
+    <div id="whatswidget-pre-wrapper" class="">
+    <div id="whatswidget-widget-wrapper" class="whatswidget-widget-wrapper" style="all:revert;">
+    <div id="whatswidget-conversation" class="whatswidget-conversation" style="display: none; opacity: 0;">
+       <div class="whatswidget-conversation-header" style="all:revert;">
+          <div id="whatswidget-conversation-title" class="whatswidget-conversation-title" style="all:revert;color:black;">Entre em contato!</div>
+       </div>
+       <div id="whatswidget-conversation-message" class="whatswidget-conversation-message " style="all:revert;">Olá, Gostaria de marcar um horario com a MaisFPS!</div>
+       <div class="whatswidget-conversation-cta" style="all:revert;"> <a style="all:revert;" id="whatswidget-phone-desktop" target="_blank" href="https://web.whatsapp.com/send?phone=5561998009987" class="whatswidget-cta whatswidget-cta-desktop">
+          Enviar Mensagem</a> <a id="whatswidget-phone-mobile" target="_blank" href="https://wa.me/5561998009987" class="whatswidget-cta whatswidget-cta-mobile" style="all:revert;">Enviar Mensagem</a>
+       </div>
+       <a target="_blank" class="whatswidget-link" href="https://www.adamante.com.br/code/whatsapp-site/" title="Feito no WhatsWidget" style="all:revert;"><img src="%PUBLIC_URL%/images/whatsbg.png" style="all:revert;"></a>
+    </div>
+    <div id="whatswidget-conversation-message-outer" class="whatswidget-conversation-message-outer" style="all:revert;">
+       <span id="whatswidget-text-header-outer" class="whatswidget-text-header-outer" style="all:revert;color:black;">Entre em contato!</span><br>
+       <div id="whatswidget-text-message-outer" class="whatswidget-text-message-outer" style="all:revert;color:black;">Heeey!!! Estamos Online no WhatsApp!
+          queria conversar sobre a MaisFPS!
+       </div>
+    </div>
+    <div class="whatswidget-button-wrapper" style="all:revert;">
+       <div class="whatswidget-button" id="whatswidget-button" style="all:revert;">
+          <div style="margin:0 auto;width:38.5px;all:revert;"> <img class="whatswidget-icon" style="all:revert;" src="%PUBLIC_URL%/images/whats.png"></div>
+       </div>
+    </div>
+
+    <script src="%PUBLIC_URL%/assets/js/whats.js"></script>
+
   </body>
 </html>
