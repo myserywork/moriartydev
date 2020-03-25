@@ -11,7 +11,7 @@ export default class Buy extends React.Component {
             <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
               <div className="section-head">
                 <h2 className="section-title">Pagamento & Agenda
-                  <span>Adiquirir</span>
+                  <span>ADQUIRIR</span>
                 </h2>
                 <p>Trabalhamos com os melhores e mais seguros metódos de pagamento para garantir sua segurança</p>
               </div>
