@@ -19,10 +19,10 @@ export default class Navbar extends React.Component {
 
           <div className="collapse navbar-collapse justify-content-end" id="navbarToggle">
             <ul className="navbar-nav">
-              <li className="nav-item"><a className="nav-link menu-link" href="#intro">SOBRE<span className="sr-only">(current)</span></a></li>
-              <li className="nav-item"><a className="nav-link menu-link" href="#apps">Serviços</a></li>
-              <li className="nav-item"><a className="nav-link menu-link" href="#roadmap">WorkFlow</a></li>
-              <li className="nav-item"><a className="nav-link menu-link" href="#comprar">Comprar</a></li>
+              <li className="nav-item"><a className="nav-link menu-link" href="/#intro">SOBRE<span className="sr-only">(current)</span></a></li>
+              <li className="nav-item"><a className="nav-link menu-link" href="/#apps">Serviços</a></li>
+              <li className="nav-item"><a className="nav-link menu-link" href="/#roadmap">WorkFlow</a></li>
+              <li className="nav-item"><a className="nav-link menu-link" href="/#comprar">Comprar</a></li>
             </ul>
             <ul className="navbar-nav navbar-btns">
               <li className="nav-item"><a className="nav-link btn btn-sm btn-outline menu-link"  href="/agenda">Agendar minha manutenção</a></li>

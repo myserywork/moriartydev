@@ -120,7 +120,7 @@ export default class Agenda extends React.Component {
                 <input
                   type="text"
                   className="form-control text-center"
-                  placeholder="Digite o código de agendamento"
+                  placeholder="Digite aqui"
                   value={this.codigoAgendamento}
                   onChange={this.handleCodigoAgendamentoChange} />
                 <p className="text-info">Após digitar o código, clique em um horário disponível para agendar o atendimento.</p>
