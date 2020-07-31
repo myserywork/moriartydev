@@ -1,27 +1,27 @@
-import React from 'react';
-
-import Intro from './sections/Intro';
-import Howto from './sections/Howto';
-import Services from './sections/Services';
-import Workflow from './sections/Workflow';
-import Buy from './sections/Buy';
-import Faq from './sections/Faq';
-import Contact from './sections/Contact';
-import Subscribe from './sections/Subscribe';
+import React from "react";
+import Vmw from "./sections/Vmw";
+import Introduction from "./sections/Introduction";
+import Team from "./sections/Team";
+import Services from "./sections/Services";
+import Projects from "./sections/Projects";
+import News from "./sections/News";
+import Contact from "./sections/Contact";
+import Brand from "./sections/Brand";
+import "../assets/global.css";
 
 export default class Home extends React.Component {
   render() {
     return (
-      <div>
-        <Intro />
-        <Howto />
+      <>
+        <Vmw />
+        <Introduction />
         <Services />
-        <Workflow />
-        <Buy />
-        <Faq />
+        <Brand />
+        <Projects />
+        <News />
+        <Team />
         <Contact />
-        <Subscribe />
-      </div>
-    )
+      </>
+    );
   }
 }

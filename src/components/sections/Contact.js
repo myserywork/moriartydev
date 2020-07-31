@@ -1,31 +1,101 @@
-import React from 'react';
+import React from "react";
 
 export default class Contact extends React.Component {
   render() {
-    return(
-      <div className="section section-pad section-bg-alt" id="contact">
-    		<div className="container">
-    			<div className="row text-center">
-    				<div className="col">
-    					<div className="section-head">
-    						<h2 className="section-title">Contate-nos
-    							<span>CONTATO</span>
-    						</h2>
-    						<p>Alguma pergunta? fale conosco</p>
-    					</div>
-    				</div>
-    			</div>
-    			<div className="row">
-    				<div className="col-lg-8 offset-lg-2">
-    					<ul className="contact-info">
-    						<li><em className="fa fa-whatsapp"></em><span><a href="https://api.whatsapp.com/send?phone=5561998009987&text=Oi,%20queria%20conversar%20sobre%20a%20MAIS%20FPS"> 61 - 9 9800-9987</a></span></li>
-    						<li><em className="fa fa-envelope"></em><span>contato@maisfps.com</span></li>
-    						<li><em className="fa fa-facebook"></em><span><a href="https://www.facebook.com/maisfps">Pagina Facebook</a></span></li>
-    					</ul>
-    				</div>
-    			</div>
-    		</div>
-     </div>
-    )
+    return (
+      <section id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 cnt_head align-self-center">
+              <span class="sub_head">
+                Que tal nos contar mais sobre seu negocío ?
+              </span>
+              <h2 class="s_head">Contate-nos</h2>
+              <p class="h_body">
+                Se precisar ajudar com nossos serviços, perguntas sobre nossos
+                trabalhos ou estiver enfrentando dificuldades técnicas, por
+                favor, não hesite em entrar em contato conosco.
+              </p>
+              <div class="cntc_info d-flex flex-row flex-wrap">
+                <div class="cntc_info_e">
+                  <div class="cntc_info_head">
+                    <span>
+                      <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Endereço
+                    </span>
+                    <br />
+                  </div>
+                  <span class="cntc_info_b">CSG 3 LOTE 7</span>
+                </div>
+                <div class="cntc_info_e">
+                  <div class="cntc_info_head">
+                    <span>
+                      <i class="fas fa-phone-alt"></i>&nbsp;&nbsp;Telefones
+                    </span>
+                    <br />
+                  </div>
+                  <span class="cntc_info_b">61998009987</span>
+                  <br />
+                  <span class="cntc_info_b">61981223370</span>
+                </div>
+                <div class="cntc_info_e">
+                  <div class="cntc_info_head">
+                    <span>Outros</span>
+                    <br />
+                  </div>
+
+                  <span class="cntc_info_b">
+                    <i class="fas fa-envelope"></i>
+                    &nbsp;&nbsp;contato@moriartydev.com.br
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 cntc_form align-self-center">
+              <form>
+                <div class="form-group">
+                  <label>Nome</label>
+                  <input
+                    class="form-control"
+                    type="text"
+                    placeholder="Seu nome"
+                  />
+                </div>
+                <div class="form-group">
+                  <label>Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Digite seu melhor e-mail"
+                  />
+                </div>
+                <div class="form-group">
+                  <label>Telefone</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="digite seu telefone"
+                  />
+                </div>
+                <div class="form-group">
+                  <label>Mensaegm</label>
+                  <textarea
+                    class="form-control"
+                    placeholder="Olá ... "
+                    rows="3"
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="button_main"
+                  style={{ marginTop: 40, marginLeft: 28 }}
+                >
+                  Enviar
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
   }
 }
