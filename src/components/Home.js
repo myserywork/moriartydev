@@ -7,6 +7,7 @@ import Projects from "./sections/Projects";
 import News from "./sections/News";
 import Contact from "./sections/Contact";
 import Brand from "./sections/Brand";
+import Footer from "./sections/Footer";
 import "../assets/global.css";
 
 export default class Home extends React.Component {
@@ -21,6 +22,7 @@ export default class Home extends React.Component {
         <News />
         <Team />
         <Contact />
+        <Footer />
       </>
     );
   }
