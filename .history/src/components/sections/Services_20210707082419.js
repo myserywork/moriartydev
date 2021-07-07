@@ -24,10 +24,10 @@ export default class Services extends React.Component {
                 <span class="ser_ico">
                   <i class="far fa-edit"></i>
                 </span>
-                <span class="ser_ttl">Business Success </span>
+                <span class="ser_ttl">Criação de Conteudo </span>
                 <p class="ser_dsc card-text">
-                  Acompanhamos e ajudamos você a construir um negocio duradouro
-                  e com bases &nbsp;&nbsp;
+                  Criamos conteudo para seu Blog, e todas as midias sociais
+                  &nbsp;&nbsp;
                 </p>
               </div>
             </div>

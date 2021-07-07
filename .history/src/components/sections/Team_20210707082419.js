@@ -72,7 +72,7 @@ export default class Team extends React.Component {
               <div class="card">
                 <div class="team_img_cnt">
                   <img
-                    src="https://media-exp1.licdn.com/dms/image/C4D03AQGEgemKr973sw/profile-displayphoto-shrink_200_200/0/1608586140893?e=1631145600&v=beta&t=bJWxXYyu_kpz50hx-WyQAeyYVQhPXX1GrcQkTdQGx3c"
+                    src="https://mir-s3-cdn-cf.behance.net/user/276/f66764548095.5aa01ad01ce2b.png"
                     class="img-fluid rounded-circle mx-auto mb-3"
                     height="400"
                     width="400"
@@ -104,7 +104,7 @@ export default class Team extends React.Component {
                   </div>
                 </div>
                 <div class="m_name text-center">Luis Henrique</div>
-                <div class="m_dsc text-center">UX/UI Designer</div>
+                <div class="m_dsc text-center">UI/UX Designer</div>
               </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 team_crd">

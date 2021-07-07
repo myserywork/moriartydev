@@ -110,6 +110,24 @@ export default class Projects extends React.Component {
 
           <div
             class="item"
+            style={carrouselItemStyle("https://i.imgur.com/tTN7qkG.png")}
+          >
+            <div class="pr_obj">
+              <div class="p-3 pr_main">
+                <div class="pr_subhead">Plataforma de Atendimento Online</div>
+                <div class="pr_head">Produtivamente</div>
+                <div class="pr_lnk">
+                  <a href="https://i.imgur.com/pcXQoWT.png" class="button_main">
+                    Ver Mais&nbsp;&nbsp;&nbsp;
+                    <i class="fas fa-angle-right arrow_go"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="item"
             style={carrouselItemStyle("https://i.imgur.com/fyGp2Xb.png")}
           >
             <div class="pr_obj">
@@ -118,42 +136,6 @@ export default class Projects extends React.Component {
                 <div class="pr_head">Gesto Amigo</div>
                 <div class="pr_lnk">
                   <a href="http://gestoamigo.com.br" class="button_main">
-                    Ver Mais&nbsp;&nbsp;&nbsp;
-                    <i class="fas fa-angle-right arrow_go"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="item"
-            style={carrouselItemStyle("https://i.imgur.com/WGPca2p.png")}
-          >
-            <div class="pr_obj">
-              <div class="p-3 pr_main">
-                <div class="pr_subhead">Dr Ednaldo Queiroga </div>
-                <div class="pr_head">Médico / Tele Medicina</div>
-                <div class="pr_lnk">
-                  <a href="http://drednaldoqueiroga.com/" class="button_main">
-                    Ver Mais&nbsp;&nbsp;&nbsp;
-                    <i class="fas fa-angle-right arrow_go"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="item"
-            style={carrouselItemStyle("https://i.imgur.com/HYvMkDs.png")}
-          >
-            <div class="pr_obj">
-              <div class="p-3 pr_main">
-                <div class="pr_subhead">Fidélis & Cunha </div>
-                <div class="pr_head">Advogados Associados</div>
-                <div class="pr_lnk">
-                  <a href="http://fidelisecunha.adv.br/" class="button_main">
                     Ver Mais&nbsp;&nbsp;&nbsp;
                     <i class="fas fa-angle-right arrow_go"></i>
                   </a>
@@ -221,27 +203,6 @@ export default class Projects extends React.Component {
                 <div class="pr_lnk">
                   <a
                     href="https://web.archive.org/web/20170519123808/http://www.roxpin.com/"
-                    class="button_main"
-                  >
-                    Ver Mais&nbsp;&nbsp;&nbsp;
-                    <i class="fas fa-angle-right arrow_go"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="item"
-            style={carrouselItemStyle("https://i.imgur.com/pcXQoWT.png")}
-          >
-            <div class="pr_obj">
-              <div class="p-3 pr_main">
-                <div class="pr_subhead">Plataforma de Atendimento Online</div>
-                <div class="pr_head">Produtivamente</div>
-                <div class="pr_lnk">
-                  <a
-                    href="https://play.google.com/store/apps/details?id=com.produtivamente&hl=pt_BR&gl=US"
                     class="button_main"
                   >
                     Ver Mais&nbsp;&nbsp;&nbsp;

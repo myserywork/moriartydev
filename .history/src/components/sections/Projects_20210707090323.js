@@ -128,42 +128,6 @@ export default class Projects extends React.Component {
 
           <div
             class="item"
-            style={carrouselItemStyle("https://i.imgur.com/WGPca2p.png")}
-          >
-            <div class="pr_obj">
-              <div class="p-3 pr_main">
-                <div class="pr_subhead">Dr Ednaldo Queiroga </div>
-                <div class="pr_head">Médico / Tele Medicina</div>
-                <div class="pr_lnk">
-                  <a href="http://drednaldoqueiroga.com/" class="button_main">
-                    Ver Mais&nbsp;&nbsp;&nbsp;
-                    <i class="fas fa-angle-right arrow_go"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="item"
-            style={carrouselItemStyle("https://i.imgur.com/HYvMkDs.png")}
-          >
-            <div class="pr_obj">
-              <div class="p-3 pr_main">
-                <div class="pr_subhead">Fidélis & Cunha </div>
-                <div class="pr_head">Advogados Associados</div>
-                <div class="pr_lnk">
-                  <a href="http://fidelisecunha.adv.br/" class="button_main">
-                    Ver Mais&nbsp;&nbsp;&nbsp;
-                    <i class="fas fa-angle-right arrow_go"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="item"
             style={carrouselItemStyle(
               "https://cdn.dribbble.com/users/1831658/screenshots/13932069/media/f91717403a2ad81993ebaaaf0db040c5.png"
             )}
